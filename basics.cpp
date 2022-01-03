@@ -52,5 +52,6 @@ int main() {
     cout << myGrade;
     char ascii = 65;
     cout << ascii;
+    
     return 0;
 }
