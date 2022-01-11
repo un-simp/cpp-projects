@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -52,6 +53,16 @@ int main() {
     cout << myGrade;
     char ascii = 65;
     cout << ascii;
-    
+    // comparisons
+    int p = 5;
+    int l = 3;
+    cout << (x > y) // will return 1 because 5 is greater than 3
+    // && for a logical and,  || logical or, ! logical not
+    // strings require the string library
+    string greeting = "yes";
+    string yes = "yes";
+    // 2 strings can be added together
+    string add = greeting + yes;
+    cout << add;
     return 0;
 }
