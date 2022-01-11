@@ -64,5 +64,10 @@ int main() {
     // 2 strings can be added together
     string add = greeting + yes;
     cout << add;
+    // using .append() is faster
+    // get length of a string
+    string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    cout << "length is: " << txt.length();
+    // .size() can also be used. it dosent matter
     return 0;
 }
